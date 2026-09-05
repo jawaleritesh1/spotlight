@@ -34,8 +34,8 @@ export default function Header() {
       <header className="w-full bg-[#FBFBFA] border-b border-[#E2DDD5] sticky top-0 z-40">
         {/* Top Header Bar (Sleek, perfectly centered 3-column flex layout) */}
         <div className="max-w-[1360px] mx-auto px-3 sm:px-6 lg:px-8 h-[58px] md:h-[68px] flex items-center justify-between">
-          {/* Left Flank: Mobile/Drawer Menu Button (Equal width to Right Flank) */}
-          <div className="w-[84px] sm:w-[130px] flex items-center justify-start shrink-0 z-20">
+          {/* Left Flank: Mobile/Drawer Menu Button (Equal width to Right Flank on all screen sizes) */}
+          <div className="w-10 sm:w-[130px] flex items-center justify-start shrink-0 z-20">
             <button
               onClick={() => setDrawerOpen(true)}
               className="p-2 -ml-1 text-neutral-800 hover:text-black hover:bg-neutral-100/70 rounded transition-colors flex items-center gap-2"
@@ -46,23 +46,23 @@ export default function Header() {
             </button>
           </div>
 
-          {/* Center Column: Brand Identity (100% Dead Center, No Offsets) */}
-          <div className="flex-1 flex flex-col items-center justify-center text-center px-1 min-w-0 z-10">
+          {/* Center Column: Brand Identity (100% Dead Center, No Overlap) */}
+          <div className="flex-1 flex flex-col items-center justify-center text-center px-2 min-w-0 z-10">
             <Link href="/" className="inline-block group max-w-full">
-              <h1 className="font-serif text-[15px] xs:text-[17px] sm:text-[22px] md:text-[26px] lg:text-[29px] tracking-[0.07em] xs:tracking-[0.1em] sm:tracking-[0.16em] md:tracking-[0.2em] uppercase font-normal text-[#121214] group-hover:opacity-90 transition-opacity leading-none whitespace-nowrap">
+              <h1 className="font-serif text-[15px] xs:text-[17px] sm:text-[22px] md:text-[26px] lg:text-[29px] tracking-[0.06em] xs:tracking-[0.08em] sm:tracking-[0.16em] md:tracking-[0.2em] uppercase font-normal text-[#121214] group-hover:opacity-90 transition-opacity leading-none whitespace-nowrap">
                 The Spotlight Leaders
               </h1>
-              <p className="text-[7px] xs:text-[8px] sm:text-[8.5px] md:text-[9.5px] tracking-[0.2em] xs:tracking-[0.26em] sm:tracking-[0.36em] md:tracking-[0.42em] uppercase text-[#737373] font-sans font-medium mt-0.5 sm:mt-1 leading-none whitespace-nowrap">
+              <p className="text-[7px] xs:text-[8px] sm:text-[8.5px] md:text-[9.5px] tracking-[0.18em] xs:tracking-[0.24em] sm:tracking-[0.36em] md:tracking-[0.42em] uppercase text-[#737373] font-sans font-medium mt-0.5 sm:mt-1 leading-none whitespace-nowrap">
                 Inspiring the Future of Business
               </p>
             </Link>
           </div>
 
-          {/* Right Flank: Search & Subscribe CTA (Equal width to Left Flank) */}
-          <div className="w-[84px] sm:w-[130px] flex items-center justify-end gap-1.5 sm:gap-4 shrink-0 z-20">
+          {/* Right Flank: Search on Mobile, Search + Subscribe on Tablet/Desktop (Equal width to Left Flank) */}
+          <div className="w-10 sm:w-[130px] flex items-center justify-end gap-2 sm:gap-4 shrink-0 z-20">
             <button
               onClick={() => setSearchOpen(true)}
-              className="p-1.5 text-neutral-800 hover:text-black uppercase transition-colors flex items-center gap-1"
+              className="p-2 -mr-1 text-neutral-800 hover:text-black uppercase transition-colors flex items-center gap-1.5"
               aria-label="Search"
             >
               <span className="hidden sm:inline text-xs font-semibold tracking-wider">Search</span>
@@ -71,7 +71,7 @@ export default function Header() {
 
             <button
               onClick={() => setSubscribeOpen(true)}
-              className="px-2 py-1 sm:px-4 sm:py-1 text-[9px] sm:text-[11px] font-sans font-bold tracking-[0.08em] sm:tracking-[0.18em] uppercase bg-[#A67C52] sm:bg-transparent text-white sm:text-neutral-900 hover:bg-[#8D682E] sm:hover:bg-transparent sm:hover:text-[#A17A38] sm:underline sm:decoration-neutral-400 sm:underline-offset-4 sm:hover:decoration-[#A17A38] transition-all shadow-xs sm:shadow-none whitespace-nowrap"
+              className="hidden sm:inline-flex px-3.5 sm:px-4 py-1 text-[11px] font-sans font-bold tracking-[0.18em] uppercase text-neutral-900 hover:text-[#A17A38] underline decoration-neutral-400 underline-offset-4 hover:decoration-[#A17A38] transition-all whitespace-nowrap"
             >
               Subscribe
             </button>
