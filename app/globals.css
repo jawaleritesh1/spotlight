@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FBFBFA;
+  --foreground: #141416;
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-display: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-jakarta), -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  --gold-primary: #A67C52;
+  --gold-hover: #916840;
+  --gold-accent: #C5A059;
+  --gold-light: #F4EEDF;
+  --charcoal-black: #0E0E10;
+  --charcoal-card: #151518;
+  --editorial-border: #E8E8E2;
+}
+
+@theme {
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-display: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-jakarta), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-editorial {
+  font-family: var(--font-serif);
+}
+
+.font-editorial-italic {
+  font-family: var(--font-display);
+  font-style: italic;
+}
+
+/* Editorial styling utilities */
+.editorial-line {
+  border-bottom: 1px solid var(--editorial-border);
+}
+
+.gold-button {
+  background-color: #A67C52;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.gold-button:hover {
+  background-color: #8E6740;
+}
+
+.gold-link {
+  color: #A67C52;
+  transition: color 0.2s ease;
+}
+
+.gold-link:hover {
+  color: #7E5933;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1ee;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d4cc;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8860b;
+}
