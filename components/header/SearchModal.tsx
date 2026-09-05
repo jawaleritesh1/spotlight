@@ -24,8 +24,8 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
   if (!isOpen) return null
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/60 backdrop-blur-sm pt-20 px-4 transition-opacity">
-      <div className="relative w-full max-w-2xl bg-white border border-[#E8E8E2] shadow-2xl p-6 md:p-8 animate-in fade-in zoom-in-95 duration-200">
+    <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/60 backdrop-blur-sm pt-12 sm:pt-20 px-3 sm:px-4 transition-opacity">
+      <div className="relative w-full max-w-2xl bg-white border border-[#E8E8E2] shadow-2xl p-5 sm:p-8 animate-in fade-in zoom-in-95 duration-200 max-h-[90vh] overflow-y-auto">
         <button
           onClick={onClose}
           className="absolute top-6 right-6 p-2 text-neutral-400 hover:text-black transition-colors"

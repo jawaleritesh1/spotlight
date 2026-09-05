@@ -29,16 +29,16 @@ interface ExploreIndustriesProps {
 
 export default function ExploreIndustries({ industries }: ExploreIndustriesProps) {
   return (
-    <section className="w-full bg-[#FBFBFA] border-b border-[#E2DDD5] py-14 lg:py-18">
+    <section className="w-full bg-[#FBFBFA] border-b border-[#E2DDD5] py-10 sm:py-14 lg:py-18">
       <div className="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           {/* Left Column: Heading & Description (3.5 cols) */}
-          <div className="lg:col-span-4 space-y-4">
+          <div className="lg:col-span-4 space-y-3 sm:space-y-4">
             <h2 className="font-serif text-2xl sm:text-3xl uppercase tracking-[0.14em] text-[#121214] font-normal leading-tight">
               Explore<br />Industries
             </h2>
 
-            <p className="text-sm text-neutral-600 font-sans leading-relaxed max-w-sm">
+            <p className="text-xs sm:text-sm text-neutral-600 font-sans leading-relaxed max-w-sm">
               Stories, insights and trends from the industries shaping our world.
             </p>
 
@@ -62,7 +62,7 @@ export default function ExploreIndustries({ industries }: ExploreIndustriesProps
                 <Link
                   key={industry.id}
                   href={`/category/${industry.slug}`}
-                  className="p-5 sm:p-6 border-r border-b border-[#E8E8E2] hover:bg-white transition-all duration-200 group flex flex-col justify-between min-h-[140px]"
+                  className="p-3.5 sm:p-6 border-r border-b border-[#E8E8E2] hover:bg-white transition-all duration-200 group flex flex-col justify-between min-h-[115px] sm:min-h-[140px]"
                 >
                   <div className="flex items-center justify-between">
                     <span className="font-serif text-sm font-normal text-neutral-400 group-hover:text-[#A67C52] transition-colors">
@@ -71,11 +71,11 @@ export default function ExploreIndustries({ industries }: ExploreIndustriesProps
                     <IconComponent className="w-4 h-4 text-neutral-400 group-hover:text-black transition-colors stroke-[1.5]" />
                   </div>
 
-                  <div className="mt-4">
-                    <h3 className="font-serif text-xs sm:text-[13px] font-semibold tracking-wider text-neutral-900 uppercase group-hover:text-[#A67C52] transition-colors">
+                  <div className="mt-3 sm:mt-4">
+                    <h3 className="font-serif text-[11px] sm:text-[13px] font-semibold tracking-wider text-neutral-900 uppercase group-hover:text-[#A67C52] transition-colors leading-tight">
                       {industry.name}
                     </h3>
-                    <span className="text-[10px] text-neutral-400 font-sans uppercase tracking-widest mt-1 block">
+                    <span className="text-[9.5px] sm:text-[10px] text-neutral-400 font-sans uppercase tracking-widest mt-1 block">
                       {industry.articleCount} Articles
                     </span>
                   </div>

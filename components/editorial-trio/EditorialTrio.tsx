@@ -15,7 +15,7 @@ export default function EditorialTrio({
   voices,
 }: EditorialTrioProps) {
   return (
-    <section className="w-full bg-[#FBFBFA] border-b border-[#E2DDD5] py-14 lg:py-18">
+    <section className="w-full bg-[#FBFBFA] border-b border-[#E2DDD5] py-9 sm:py-14 lg:py-18">
       <div className="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
           {/* Column 1: LATEST NEWS */}

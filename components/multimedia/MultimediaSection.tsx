@@ -24,7 +24,7 @@ export default function MultimediaSection({
   }
 
   return (
-    <section className="w-full bg-[#FBFBFA] border-b border-[#E2DDD5] py-16 sm:py-20 lg:py-24">
+    <section className="w-full bg-[#FBFBFA] border-b border-[#E2DDD5] py-9 sm:py-14 lg:py-20">
       <div className="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Grid */}
@@ -51,7 +51,7 @@ export default function MultimediaSection({
             </div>
 
             {/* Card Content */}
-            <div className="flex-1 bg-gradient-to-b from-[#18181B] via-[#121214] to-[#0A0A0C] border border-[#27272A] p-7 sm:p-8 flex flex-col justify-between relative overflow-hidden group shadow-md hover:shadow-2xl hover:border-[#C5A059]/40 transition-all duration-500">
+            <div className="flex-1 bg-gradient-to-b from-[#18181B] via-[#121214] to-[#0A0A0C] border border-[#27272A] p-5 sm:p-8 flex flex-col justify-between relative overflow-hidden group shadow-md hover:shadow-2xl hover:border-[#C5A059]/40 transition-all duration-500">
               {/* Background ambient glow */}
               <div className="absolute -top-24 -right-24 w-56 h-56 bg-[#C5A059]/10 rounded-full blur-3xl pointer-events-none group-hover:bg-[#C5A059]/20 transition-all duration-700" />
 

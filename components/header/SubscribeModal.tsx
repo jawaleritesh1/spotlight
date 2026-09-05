@@ -27,8 +27,8 @@ export default function SubscribeModal({ isOpen, onClose }: SubscribeModalProps)
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4">
-      <div className="relative w-full max-w-lg bg-[#0E0E10] text-white border border-[#2A2A2E] shadow-2xl p-8 animate-in fade-in zoom-in-95 duration-200">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-3 sm:p-4">
+      <div className="relative w-full max-w-lg bg-[#0E0E10] text-white border border-[#2A2A2E] shadow-2xl p-5 sm:p-8 animate-in fade-in zoom-in-95 duration-200 max-h-[92vh] overflow-y-auto">
         <button
           onClick={onClose}
           className="absolute top-5 right-5 text-neutral-400 hover:text-white transition-colors"

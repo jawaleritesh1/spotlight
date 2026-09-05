@@ -20,6 +20,13 @@
   --font-serif: var(--font-playfair), Georgia, serif;
   --font-display: var(--font-cormorant), Georgia, serif;
   --font-sans: var(--font-jakarta), -apple-system, BlinkMacSystemFont, sans-serif;
+  --breakpoint-xs: 400px;
+}
+
+html,
+body {
+  overflow-x: clip;
+  max-width: 100vw;
 }
 
 body {

@@ -37,9 +37,12 @@ export default function CoverStorySection({ data }: CoverStorySectionProps) {
             </p>
 
             {/* Designation Badges */}
-            <div className="text-[9.5px] sm:text-[10px] uppercase tracking-[0.24em] font-sans text-[#8C8C94] font-medium pt-0.5">
-              FOUNDER <span className="mx-2 text-neutral-600">•</span> ENTREPRENEUR{' '}
-              <span className="mx-2 text-neutral-600">•</span> INNOVATOR
+            <div className="flex flex-wrap items-center gap-1 sm:gap-1.5 text-[9px] sm:text-[10px] uppercase tracking-[0.16em] sm:tracking-[0.24em] font-sans text-[#8C8C94] font-medium pt-0.5">
+              <span>FOUNDER</span>
+              <span className="text-neutral-600">•</span>
+              <span>ENTREPRENEUR</span>
+              <span className="text-neutral-600">•</span>
+              <span>INNOVATOR</span>
             </div>
 
             {/* Rectangular Outline CTA Button */}
@@ -55,7 +58,7 @@ export default function CoverStorySection({ data }: CoverStorySectionProps) {
           </div>
 
           {/* Right Column / Center-Right: Portrait blending into the dark background */}
-          <div className="relative w-full lg:w-[48%] xl:w-[50%] h-[260px] sm:h-[300px] lg:h-[320px] flex items-center justify-center lg:justify-end mt-6 lg:mt-0">
+          <div className="relative w-full lg:w-[48%] xl:w-[50%] h-[240px] sm:h-[300px] lg:h-[320px] flex items-center justify-center lg:justify-end mt-4 lg:mt-0">
             {/* Background portrait with subtle left shadow fade */}
             <div className="relative w-full h-full max-w-[500px]">
               <Image
@@ -64,7 +67,7 @@ export default function CoverStorySection({ data }: CoverStorySectionProps) {
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-contain object-right lg:object-[85%_top] filter contrast-[1.03]"
+                className="object-contain object-center lg:object-right lg:object-[85%_top] filter contrast-[1.03]"
               />
               {/* Soft gradient to seamlessly merge portrait with dark background on the left */}
               <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-[#0D0D0F] to-transparent pointer-events-none hidden lg:block" />

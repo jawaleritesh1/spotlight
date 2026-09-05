@@ -10,11 +10,11 @@ interface EditorsSelectionProps {
 
 export default function EditorsSelection({ primary, compact }: EditorsSelectionProps) {
   return (
-    <section className="w-full bg-[#FBFBFA] border-b border-[#E2DDD5] py-14 lg:py-18">
+    <section className="w-full bg-[#FBFBFA] border-b border-[#E2DDD5] py-9 sm:py-14 lg:py-18">
       <div className="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header with Horizontal Line Between Title and View All */}
-        <div className="flex items-center gap-4 sm:gap-6 mb-8 sm:mb-10">
-          <h2 className="font-serif text-xl sm:text-2xl uppercase tracking-[0.12em] text-[#121214] font-medium shrink-0">
+        <div className="flex items-center gap-3 sm:gap-6 mb-6 sm:mb-10">
+          <h2 className="font-serif text-lg sm:text-2xl uppercase tracking-[0.12em] text-[#121214] font-medium shrink-0">
             Editor&apos;s Selection
           </h2>
           <div className="flex-1 h-[1px] bg-[#E2DDD5]" />
