@@ -30,14 +30,14 @@ export default function MultimediaSection({
         {/* Section Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-10 items-stretch">
           
-          {/* Card 1: THE SUCCESS TALKS (Podcast) */}
+          {/* Card 1: THE SPOTLIGHT LEADERS TALKS (Podcast) */}
           <div className="flex flex-col h-full">
             {/* Column Header */}
             <div className="flex items-center gap-3 pb-4 mb-2">
               <div className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]" />
                 <h3 className="font-serif text-sm sm:text-base uppercase tracking-[0.18em] text-[#121214] font-medium shrink-0">
-                  The Success Talks
+                  The Spotlight Talks
                 </h3>
               </div>
               <div className="flex-1 h-[1px] bg-[#E2DDD5]" />

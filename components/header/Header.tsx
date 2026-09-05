@@ -49,7 +49,7 @@ export default function Header() {
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center flex flex-col items-center z-10 pointer-events-auto">
             <Link href="/" className="inline-block group">
               <h1 className="font-serif text-2xl sm:text-3xl md:text-[32px] tracking-[0.2em] uppercase font-normal text-[#121214] group-hover:opacity-90 transition-opacity leading-tight">
-                The Success World
+                The Spotlight Leaders
               </h1>
               <p className="text-[8.5px] sm:text-[9.5px] tracking-[0.42em] uppercase text-[#737373] font-sans font-medium mt-0.5">
                 Inspiring the Future of Business
@@ -114,7 +114,7 @@ export default function Header() {
             <div>
               <div className="flex items-center justify-between pb-4 border-b border-[#2A2A2E]">
                 <span className="font-serif text-lg tracking-widest text-[#C5A059]">
-                  THE SUCCESS WORLD
+                  THE SPOTLIGHT LEADERS
                 </span>
                 <button
                   onClick={() => setDrawerOpen(false)}
@@ -163,7 +163,7 @@ export default function Header() {
                 Subscribe Now
               </button>
               <p className="text-[11px] text-neutral-500 text-center">
-                &copy; 2026 The Success World. All rights reserved.
+                &copy; 2026 The Spotlight Leaders. All rights reserved.
               </p>
             </div>
           </div>

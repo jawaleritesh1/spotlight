@@ -3,7 +3,7 @@ import Footer from '@/components/footer/Footer'
 import InsightsPageContent from '@/components/insights/InsightsPageContent'
 
 export const metadata = {
-  title: 'Insights | The Success World',
+  title: 'Insights | The Spotlight Leaders',
   description:
     'Expert perspectives, in-depth analysis and thought-provoking ideas to help you navigate a changing world.',
 }

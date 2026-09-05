@@ -107,7 +107,7 @@ export default function IssueAndNewsletter() {
                       onChange={(e) => setAgreed(e.target.checked)}
                       className="w-3.5 h-3.5 accent-[#A67C52] rounded-xs"
                     />
-                    <span>I agree to receive communications from The Success World.</span>
+                    <span>I agree to receive communications from The Spotlight Leaders.</span>
                   </label>
                 </form>
               )}
@@ -117,7 +117,7 @@ export default function IssueAndNewsletter() {
             <div className="md:col-span-5 relative aspect-[16/10] md:aspect-[4/3] overflow-hidden rounded-xs shadow-md border border-neutral-300">
               <Image
                 src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop"
-                alt="The Success World Editorial Notebook"
+                alt="The Spotlight Leaders Editorial Notebook"
                 fill
                 sizes="(max-width: 768px) 100vw, 30vw"
                 className="object-cover"
@@ -125,7 +125,7 @@ export default function IssueAndNewsletter() {
               <div className="absolute inset-0 bg-black/20 flex items-center justify-center p-4 text-center">
                 <div className="border border-white/30 backdrop-blur-xs p-3 px-4 bg-black/40">
                   <span className="font-serif text-xs uppercase tracking-[0.25em] text-[#C5A059] block font-bold">
-                    The Success World
+                    The Spotlight Leaders
                   </span>
                   <span className="text-[9px] uppercase tracking-widest text-white/80 block mt-0.5">
                     Executive Briefings

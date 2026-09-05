@@ -23,7 +23,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "THE SUCCESS WORLD | Inspiring the Future of Business",
+  title: "THE SPOTLIGHT LEADERS | Inspiring the Future of Business",
   description: "Global business magazine, features, insights, leaders, industries, and executive analysis.",
 };
 

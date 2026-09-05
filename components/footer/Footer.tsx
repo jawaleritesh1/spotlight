@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="lg:col-span-4 space-y-5">
             <Link href="/" className="inline-block">
               <h2 className="font-serif text-xl sm:text-2xl uppercase tracking-[0.16em] text-white font-normal">
-                The Success World
+                The Spotlight Leaders
               </h2>
             </Link>
 
@@ -149,7 +149,7 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-3 flex flex-col justify-between">
             <div className="space-y-2">
               <h3 className="font-serif text-xs uppercase tracking-[0.2em] text-[#C5A059] font-bold">
-                The Success Magazine
+                The Spotlight Leaders Magazine
               </h3>
               <p className="text-[11px] text-neutral-400 leading-snug">
                 Subscribe to the magazine and never miss an issue.
@@ -177,7 +177,7 @@ export default function Footer() {
 
         {/* Bottom copyright & Sanity Studio link */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-neutral-500">
-          <p>&copy; 2026 The Success World. All rights reserved.</p>
+          <p>&copy; 2026 The Spotlight Leaders. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <Link href="/studio" target="_blank" className="hover:text-[#C5A059] transition-colors">
               Editorial Studio (Sanity CMS)

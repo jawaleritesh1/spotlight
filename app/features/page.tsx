@@ -20,7 +20,7 @@ import {
 } from 'lucide-react'
 
 export const metadata = {
-  title: 'Our Features | The Success World',
+  title: 'Our Features | The Spotlight Leaders',
   description:
     'A complete ecosystem of content and experiences designed to inform, inspire and create impact for leaders and innovators.',
 }
@@ -143,7 +143,7 @@ export default function FeaturesPage() {
           <div className="absolute inset-0 w-full h-full z-0">
             <Image
               src="/images/features-hero-lounge.jpg"
-              alt="The Success World Executive Lounge"
+              alt="The Spotlight Leaders Executive Lounge"
               fill
               priority
               sizes="100vw"
@@ -171,7 +171,7 @@ export default function FeaturesPage() {
 
               {/* Subtitle */}
               <p className="font-serif text-base sm:text-lg lg:text-[19px] text-[#E0E0E0] font-light leading-relaxed max-w-xl">
-                The Success World delivers intelligent, insightful and inspiring content
+                The Spotlight Leaders delivers intelligent, insightful and inspiring content
                 for leaders, entrepreneurs and changemakers shaping the future.
               </p>
             </div>
@@ -288,7 +288,7 @@ export default function FeaturesPage() {
                 <div className="relative w-full aspect-[16/10] overflow-hidden rounded-[2px] shadow-xl border border-[#DDD5C7] group">
                   <Image
                     src="/images/features-editorial-spread.jpg"
-                    alt="The Success World Editorial Spread & Printed Magazine"
+                    alt="The Spotlight Leaders Editorial Spread & Printed Magazine"
                     fill
                     sizes="(max-width: 1024px) 100vw, 55vw"
                     className="object-cover object-center group-hover:scale-[1.02] transition-transform duration-700"

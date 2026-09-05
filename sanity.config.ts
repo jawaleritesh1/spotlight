@@ -10,13 +10,13 @@ export default defineConfig({
   basePath: '/studio',
   projectId,
   dataset,
-  title: 'The Success World Editorial Studio',
+  title: 'The Spotlight Leaders Editorial Studio',
   schema,
   plugins: [
     structureTool({
       structure: (S) =>
         S.list()
-          .title('The Success World Content')
+          .title('The Spotlight Leaders Content')
           .items([
             S.listItem()
               .title('Featured & Cover Issues')
@@ -32,7 +32,7 @@ export default defineConfig({
               .child(S.documentTypeList('category').title('Industries')),
             S.divider(),
             S.listItem()
-              .title('The Success Talks (Podcasts)')
+              .title('The Spotlight Talks (Podcasts)')
               .child(S.documentTypeList('podcast').title('Podcast Episodes')),
             S.listItem()
               .title('Upcoming Summits & Events')

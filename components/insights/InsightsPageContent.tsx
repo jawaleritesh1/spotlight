@@ -275,6 +275,7 @@ export default function InsightsPageContent() {
                         src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop"
                         alt="Rohan Mehta"
                         fill
+                        sizes="24px"
                         className="object-cover"
                       />
                     </div>
@@ -335,7 +336,7 @@ export default function InsightsPageContent() {
                         required
                       />
                       <span className="text-[10px] text-neutral-500 leading-tight">
-                        I agree to receive communications from The Success World.
+                        I agree to receive communications from The Spotlight Leaders.
                       </span>
                     </label>
                   </form>
@@ -434,7 +435,7 @@ export default function InsightsPageContent() {
               </div>
             </div>
 
-            {/* Right 4 Cols: SUCCESS WORLD MAGAZINE PROMO */}
+            {/* Right 4 Cols: SPOTLIGHT LEADERS MAGAZINE PROMO */}
             <div className="lg:col-span-4">
               <div className="bg-[#0F0F11] text-white p-7 sm:p-8 flex flex-col justify-between min-h-[480px] relative overflow-hidden group shadow-lg border border-[#27272A]">
                 {/* Background lighting */}
@@ -445,7 +446,7 @@ export default function InsightsPageContent() {
                     The
                   </span>
                   <h3 className="font-serif text-xl sm:text-2xl font-normal tracking-wide text-white uppercase leading-snug">
-                    Success World Magazine
+                    Spotlight Leaders Magazine
                   </h3>
                   <p className="text-xs text-neutral-400 font-sans leading-relaxed pt-1">
                     In-depth stories. Exclusive insights. Real impact.
@@ -457,7 +458,7 @@ export default function InsightsPageContent() {
                   <div className="relative w-44 aspect-[3/4] shadow-2xl rotate-3 group-hover:rotate-0 transition-transform duration-500 border border-neutral-700 overflow-hidden bg-neutral-900">
                     <Image
                       src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=600&auto=format&fit=crop"
-                      alt="The Success World Magazine Cover"
+                      alt="The Spotlight Leaders Magazine Cover"
                       fill
                       sizes="180px"
                       className="object-cover filter contrast-105"
@@ -465,7 +466,7 @@ export default function InsightsPageContent() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30" />
                     <div className="absolute bottom-3 inset-x-3 text-center">
                       <span className="font-serif text-[11px] tracking-widest uppercase text-white font-medium block">
-                        THE SUCCESS WORLD
+                        THE SPOTLIGHT LEADERS
                       </span>
                     </div>
                   </div>

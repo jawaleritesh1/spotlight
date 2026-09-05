@@ -2,7 +2,7 @@ import { defineField, defineType } from 'sanity'
 
 export const podcast = defineType({
   name: 'podcast',
-  title: 'The Success Talks (Podcast)',
+  title: 'The Spotlight Talks (Podcast)',
   type: 'document',
   fields: [
     defineField({

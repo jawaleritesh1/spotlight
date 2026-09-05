@@ -36,6 +36,7 @@ export default function IssuePage() {
                   alt="Issue Cover"
                   fill
                   priority
+                  sizes="(max-width: 640px) 256px, 288px"
                   className="object-cover"
                 />
               </div>

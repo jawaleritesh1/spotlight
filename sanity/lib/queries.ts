@@ -120,7 +120,7 @@ export const INSIGHTS_QUERY = groq`
   }
 `
 
-// Fetch Multimedia (The Success Talks podcast, Summit Event)
+// Fetch Multimedia (The Spotlight Talks podcast, Summit Event)
 export const MULTIMEDIA_QUERY = groq`
   {
     "podcast": *[_type == "podcast"][0] {

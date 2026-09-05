@@ -585,7 +585,7 @@ export default function IndustriesPage() {
               <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8 sm:mb-10">
                 <div>
                   <span className="text-[10px] uppercase tracking-[0.28em] text-[#A17A38] font-sans font-bold block mb-1.5">
-                    EXECUTIVE PERSPECTIVES • THE SUCCESS VOICES
+                    EXECUTIVE PERSPECTIVES • THE SPOTLIGHT LEADERS VOICES
                   </span>
                   <div className="flex items-center gap-3">
                     <h2 className="font-serif text-2xl sm:text-3xl uppercase tracking-[0.12em] text-[#121214] font-medium">
@@ -787,7 +787,7 @@ export default function IndustriesPage() {
                         onChange={(e) => setAgreed(e.target.checked)}
                         className="rounded-xs border-neutral-600 text-[#A17A38] focus:ring-[#A17A38]"
                       />
-                      <span>I agree to receive communications from The Success World.</span>
+                      <span>I agree to receive communications from The Spotlight Leaders.</span>
                     </label>
                   </form>
                 )}
@@ -798,7 +798,7 @@ export default function IndustriesPage() {
                 <div className="relative w-full max-w-[320px] aspect-[4/3] overflow-hidden rounded-[2px] shadow-2xl border border-white/10">
                   <Image
                     src="/images/features-editorial-spread.jpg"
-                    alt="The Success World Magazine"
+                    alt="The Spotlight Leaders Magazine"
                     fill
                     sizes="(max-width: 1024px) 100vw, 35vw"
                     className="object-cover object-center filter contrast-105"
